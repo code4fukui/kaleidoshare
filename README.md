@@ -16,6 +16,12 @@ npm ci
 npx playwright install --with-deps
 ```
 
+### Make schema
+
+```
+npm run build:schema
+```
+
 ### Develop
 
 ```

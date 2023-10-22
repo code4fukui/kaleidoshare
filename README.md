@@ -14,6 +14,7 @@ Let's create and share kaleidoscopes on the web.
 ```
 npm ci
 npx playwright install --with-deps
+npm install @rjsf/core @rjsf/utils @rjsf/validator-ajv8 @rjsf/antd
 ```
 
 ### Make schema

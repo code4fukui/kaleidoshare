@@ -468,3 +468,11 @@ pre[class*="language-"] {
     width: 100%;
   }
 }
+.rjsf {
+  background-color: white !important;
+  border: none;
+  padding: .5em;
+}
+.rjsf button {
+  border: 1px solid black !important;
+}

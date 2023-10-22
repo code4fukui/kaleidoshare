@@ -39,5 +39,12 @@
     "test": "run-s test:*",
     "test:backend": "node --loader tsx --test ./test/backend/*.test.mts",
     "test:frontend": "playwright test"
+  },
+  "dependencies": {
+    "@rjsf/antd": "^5.13.2",
+    "@rjsf/core": "^5.13.2",
+    "@rjsf/utils": "^5.13.2",
+    "@rjsf/validator-ajv8": "^5.13.2",
+    "react-bootstrap": "^2.9.1"
   }
 }

@@ -258,5 +258,54 @@ const empty: Example = {
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAWtJREFUeF7t1cEJADAMw0B3/6Fb6BT3UCYQEiZn213HGDgFYVp8kIJYPQqC9ShIQTQDGE8/pCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw3k3vWQByazB0AAAAABJRU5ErkJggg==",
 };
 
-const all: Example[] = [neon, snow, blossom, maple, toy, empty];
+const form: Example = {
+  name: "Form",
+  settings: {
+  "background": "black",
+  "objects": [
+    {
+      "count": 100,
+      "weight": 0.01,
+      "shape": {
+        "type": "circle",
+        "radius": 0.01
+      },
+      "stroke": "white",
+      "strokeWidth": 0.015,
+      "fill": "#ff3"
+    },
+    {
+      "count": 2,
+      "weight": 1,
+      "shape": {
+        "type": "rectangle",
+        "width": 0.3,
+        "height": 0.04
+      },
+      "stroke": "white",
+      "strokeWidth": 0.015,
+      "fill": "transparent"
+    },
+    {
+      "count": 2,
+      "weight": -1,
+      "shape": {
+        "type": "rectangle",
+        "width": 0.3,
+        "height": 0.04
+      },
+      "stroke": "white",
+      "strokeWidth": 0.015,
+      "fill": "transparent"
+    }
+  ],
+  "spinner": {
+    "sides": 3
+  }
+},
+  thumbnail:
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAWtJREFUeF7t1cEJADAMw0B3/6Fb6BT3UCYQEiZn213HGDgFYVp8kIJYPQqC9ShIQTQDGE8/pCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw3k3vWQByazB0AAAAABJRU5ErkJggg==",
+};
+
+const all: Example[] = [form, snow, blossom, maple, toy, empty];
 export default all;

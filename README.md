@@ -1,5 +1,7 @@
 # Kaleidoshare
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Let's create and share kaleidoscopes on the web.
 
 ## Features

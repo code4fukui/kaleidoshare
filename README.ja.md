@@ -2,9 +2,6 @@
 
 Web上でカレイドスコープを作成して共有しましょう。
 
-## デモ
-[https://kaleidoshare.deno.dev/](https://kaleidoshare.deno.dev/)
-
 ## 機能
 - カレイドスコープの作成
 - カレイドスコープの共有

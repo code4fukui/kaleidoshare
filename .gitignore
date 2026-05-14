@@ -9,3 +9,6 @@ work
 /playwright-report/
 /playwright/.cache/
 .DS_Store
+# auto-added by meta-ops
+node_modules/
+Thumbs.db
